@@ -28,7 +28,7 @@ SECRET_KEY = "django-insecure-2j1^2w)kry(x41@g=u6#1*9a3j4)-1aj-b8*v*6ac4p5z7pj#_
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "https://metodoapp1.azurewebsites.net/",
+    "metodoapp1.azurewebsites.net",
 ]
 
 
@@ -134,5 +134,5 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://metodoapp1.azurewebsites.net/",
+    "https://metodoapp1.azurewebsites.net",
 ]
