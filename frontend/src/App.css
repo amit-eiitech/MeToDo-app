@@ -1,0 +1,47 @@
+body {
+  background: whitesmoke;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+strike {
+  font-family: "Playpen Sans", sans-serif;
+}
+
+#task-container {
+  max-width: 600px;
+  background: white;
+  margin-inline: auto;
+  margin-block: 100px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#list-wrapper {
+  overflow-y: auto;
+  height: 50dvh;
+}
+
+#form-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  top: 0;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 40px;
+}
+
+.task-wrapper {
+  cursor: pointer;
+  border-bottom: 1px solid #e9e9e9;
+  color: #686868;
+  margin: 5px;
+  padding: 20px;
+}
