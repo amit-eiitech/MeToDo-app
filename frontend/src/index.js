@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-app.use("/static", express.static("./static/"));
+App.use("/static", express.static("./static/"));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
