@@ -29,6 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "metodoapp1.azurewebsites.net",
+    "127.0.0.1",
 ]
 
 
@@ -60,9 +61,9 @@ MIDDLEWARE = [
 ROOT_URLCONF = "MeToDo.urls"
 
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "frontend", "build", "static"),
-]
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, "frontend", "build", "static"),
+# ]
 
 
 TEMPLATES = [

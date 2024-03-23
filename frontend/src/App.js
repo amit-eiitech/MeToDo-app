@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-App.use("/static", express.static("./static/"));
+//App.use("/static", express.static("./static/"));
 
 class App extends React.Component {
   // constructor(props) {
